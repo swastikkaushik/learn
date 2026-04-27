@@ -143,3 +143,4 @@
 /home/swastik/Desktop/learn/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /home/swastik/Desktop/learn/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /home/swastik/Desktop/learn/bin/Debug/net8.0/learn-postman-collection.json
+/home/swastik/Desktop/learn/obj/Debug/net8.0/learn.sourcelink.json

@@ -4,6 +4,7 @@ using System.Text;
 using Api.Configurations;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using System.Text.Json;
 
 public class TokenService : ITokenService
 {
@@ -12,6 +13,8 @@ public class TokenService : ITokenService
     public TokenService(IOptions<JwtSettings> jwtOptions)
     {
         _jwtOptions = jwtOptions;
+
+        Console.WriteLine("jwtOptions: " + JsonSerializer.Serialize(jwtOptions));
     }
 
     public AuthResponse Generate(User user)
